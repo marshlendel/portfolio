@@ -1,0 +1,78 @@
+/* Navigation */
+
+nav .navbar-nav li a{
+    color: #00ADB5 !important;
+}
+
+nav .navbar-nav li a:hover {
+    color: #4dc4c9 !important;
+}
+
+#brand {
+    color: #00ADB5;
+}
+
+/* 
+Home Section */
+
+
+#home-header {
+    animation-name: glow;
+    animation-duration: .5s;
+    animation-iteration-count: 5.5;
+    animation-direction: alternate;
+}
+
+h1 {
+    color: #00ADB5;
+    text-shadow: 0 0 20px #65cfd3;
+   
+    
+}
+img {
+    border-radius: 50%;
+}
+
+@keyframes glow {
+    from{
+        text-shadow: 0 0 20px #65cfd3;
+    }
+
+    to{
+       text-shadow: 0 0 0;
+    }
+}
+
+/* Section */
+section {
+   
+}
+
+#about-button {
+    background-color: #00ADB5;
+    color: white;
+}
+
+#about-button:hover {
+    background-color: #4dc4c9 !important;
+}
+
+/* About Me */
+.about-me-header-row{
+    text-align: center;
+}
+.about-me-section {
+    height: calc(100vh - 56px) !important;
+}
+
+/* Projects */
+h3 {
+    color: #00ADB5;
+}
+
+/* Contact */
+
+button {
+    background-color: #00ADB5 !important;
+    color: white;
+}

@@ -43,10 +43,10 @@
     <!-- Home -->
     <section class="home-section py-5  bg-dark text-light">
       <div class="container-lg">
-        <div class="row min-vh-100 align-items-center align-content-center">
+        <div class="row vh-100 align-items-center align-content-center">
           <div class="col-md-6 mt-5 mt-md-0">
              <div class="bio-img text-center">
-               <img src="assets/bio1.jpg" class=" rounded-circle img-fluid " alt="">
+               <img src="assets/bio1.jpg" class="img-fluid" alt="">
              </div>
           </div>
           <div class="col-md-6 order-md-first mt-5 mt-md-0">
@@ -55,7 +55,7 @@
                <h1 class="fw-bold fs-1 text-uppercase" id="home-header">Web Developer</h1>
                <h2 class="fs-4">Marshall Brown</h2>
                <p class="mt-4">I'm an aspiring junior developer based in Indy who loves people and collaboration. Being a current Eleven Fifty student, I'm learning the latest front and back-end technologies</p>
-               <a href="#about-me" class="btn px-3 mt-3" id="about-button">About Me</a>
+               <a href="#about-me" class="btn px-3 mt-3 button d-none d-md-inline-block">About Me</a>
             </div>
           </div> 
         </div>
@@ -64,14 +64,14 @@
 
     <!-- About Me -->
 
-    <section class="about-me-section about-me py-5 bg-dark text-light">
+    <section class="about-me-section about-me py-5 bg-dark text-light text-sm-start text-center">
       <div class="container-lg">
-        <div class="row about-me-header-row">
-          <div class="col-12"><h1 id="about-me" class="fw-bold mb-5">ABOUT ME</h1>
+        <div class="row about-me-header-row py-5">
+          <div class="col-12"><h1 id="about-me" class="fw-bold mb-5 text-center">ABOUT ME</h1>
           </div>
         </div>
-        <div class=" about-me-row row mt-5">
-          <div class="col-md-4 mt-5 mt-md-0">
+        <div class=" about-me-row row">
+          <div class="col-md-4 mt">
             <p class="text-light">Hey how's it going? As you might be able to tell, I'm Marshall. I specialize in using JavaScipt to make the web a more enjoyable and useful place for everyone.</p>
           </div>
           <div class="col-md-4 mt-5 mt-md-0">
@@ -81,21 +81,27 @@
             <p class="text-light">I have a pretty eclectic background of experience. I attended Indiana Wesleyan University and graduated with a bachelor's in Computer Information Systems. Before I knew my focus, I started out interning as a IT technician and then transitioned into marketing. After getting my feet wet, I knew I wanted to specialize in web development.</p>
           </div>
         </div>
-        <div class ="d-sm-flex align-items-center justify-content-center p-5">
-          <a href="#" class="btn px-3 mt-3" id="about-button">Download CV</a>
-          <a style="width: 100px" href="https://www.linkedin.com/in/marshall-lendel-brown/" target="_blank" class="btn px-3 mt-3 mx-5" id="about-button"><i class="fab fa-linkedin-in fa-lg"></i></a>
-          <a style="width: 100px" href="https://github.com/marshlendel" target="_blank" class="btn px-3 mt-3" id="about-button"><i class="fab fa-github fa-lg"></i></a>
+        <div class ="row text-center">
+          <div class="col-sm-4">
+          <a href="#" class="btn px-3 mt-5 button">Download CV</a>
+        </div>
+        <div class="col-sm-4">
+          <a style="width: 100px" href="https://www.linkedin.com/in/marshall-lendel-brown/" target="_blank" class="btn px-3 mt-5 mx-5 button"><i class="fab fa-linkedin-in fa-lg"></i></a>
+        </div>
+        <div class="col-sm-4">
+          <a style="width: 100px" href="https://github.com/marshlendel" target="_blank" class="btn px-3 mt-5 button"><i class="fab fa-github fa-lg"></i></a>
+        </div>
         </div>
       </div>
     </section>
 
 <!-- Projects -->
     <section class="projects-section about-me py-5 bg-dark text-light">
-      <div class="container-lg py-4">
-         <div class="row justify-content-center">
+      <div class="container-lg mt-5">
+         <div class="row justify-content-center py-5">
            <div class="col-lg-8">
              <div class="section-title text-center">
-               <h1 class="fw-bold mb-5" id="projects">PROJECTS</h1>
+               <h1 class="fw-bold mt-5 mb-1" id="projects">PROJECTS</h1>
              </div>
            </div>
          </div>
@@ -138,8 +144,8 @@
 
     <!-- Contact Me -->
     <section class="py-5 bg-dark text-light">
-      <div class="container-lg text-center">
-        <h1 class="mb-5 fw-bold" id="contact-me">CONTACT ME</h1>
+      <div class="container-lg text-center mt-5">
+        <h1 class="mb-5 fw-bold mt-5" id="contact-me">CONTACT ME</h1>
         <div class="row">
           <div class="contact-form">
             <form action="">

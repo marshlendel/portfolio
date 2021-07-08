@@ -1,3 +1,7 @@
+body {
+    margin-top: 56px;
+}
+
 /* Navigation */
 
 nav .navbar-nav li a{
@@ -44,33 +48,22 @@ img {
 }
 
 /* Section */
-section {
-   
+
+.button {
+    background-color: #00ADB5 !important;
+    color: white !important;
 }
 
-#about-button {
-    background-color: #00ADB5;
-    color: white;
-}
-
-#about-button:hover {
+.button:hover {
     background-color: #4dc4c9 !important;
 }
 
-/* About Me */
-.about-me-header-row{
-    text-align: center;
-}
-.about-me-section {
-    height: calc(100vh - 56px) !important;
-}
 
 /* Projects */
+
 h3 {
     color: #00ADB5;
 }
-
-/* Contact */
 
 button {
     background-color: #00ADB5 !important;
